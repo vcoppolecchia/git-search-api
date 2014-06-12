@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <title>git-search-api - Playing around with GitHub's APIs.</title>
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css"> -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <style>
+      .margin-top-results{margin-top: 20px;}
+      .margin-cols{margin-top: 10px; margin-bottom: 10px;}
+      .box-shadow{box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);}
+      .margin-row{margin-bottom: 10px;}
+      .accordion-toggle-styles{cursor:pointer; text-transform: uppercase;}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>Repository finder<small> Made with <span class="glyphicon glyphicon-heart"></span> by Vincenzo Coppolecchia</small></h1>
+      </div>
+      <div id="content">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="input-group">
+              <span class="input-group-addon">Ricerca tra i <em>repos</em> di GitHub</span>
+              <input type="text" name="search-in-here" id="search-text" class="form-control" placeholder="Digita e premi invio (o clicca) quando sei pronto..." autofocus />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <button type="button" id="search-button" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span> Cerca</button>
+            <button type="button" id="delete-button" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span> Cancella risultati</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 margin-top-results">
+            <div id="search-results"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+    <script src="./js/bootstrap.js"></script>
+    <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
+    <script src="./js/esercizio.js">
+
+    </script>
+  </body>
+</html>
