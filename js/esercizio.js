@@ -15,7 +15,7 @@ $(document).ready(function(){
       ** la lista dei risultati di ricerca
       ** (oltre a fare click sul bottone "Cancella risultati") 
       */
-      $("#search-text").keydown(function(event){
+      $("#search-text, body").keydown(function(event){
         if(event.keyCode==46){
            $("#delete-button").trigger("click");
         }
